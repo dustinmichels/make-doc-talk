@@ -1,4 +1,28 @@
-# TalkThatDoc
+# Make-Doc-Talk
+
+## Install
+
+```sh
+# install mise
+curl https://mise.run | sh
+
+# install python, uv, bun, and rust
+mise use
+
+# install python stuff
+uv sync
+
+# change to app directory
+cd app
+
+# install frontend stuff
+bun install
+
+# run it
+bun run tauri dev
+```
+
+## Dev
 
 ```sh
 cd app && bun tauri dev
@@ -7,8 +31,6 @@ cd app && bun tauri dev
 ```sh
 uv run uvicorn backend.main:app --reload
 ```
-
-## Development
 
 | Command                      | Description                                         |
 | ---------------------------- | --------------------------------------------------- |
