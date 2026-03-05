@@ -3,9 +3,13 @@
 ## Install
 
 ```sh
-# install mise
+# install mise (anywhere)
 curl https://mise.run | sh
+```
 
+Inside this project:
+
+```sh
 # install python, uv, bun, and rust
 mise use
 
